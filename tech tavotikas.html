@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Fuentes | Unboxing de Gadgets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #000;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .rgb-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, rgba(255, 0, 0, 0.8), rgba(0, 255, 0, 0.8), rgba(0, 0, 255, 0.8));
+            animation: rgbMovement 3s infinite linear;
+        }
+        @keyframes rgbMovement {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 0%; }
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .social-links {
+            margin: 30px 0;
+        }
+        .social-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+        .video-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .video-gallery iframe {
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gustavo Fuentes - Unboxing de Gadgets</h1>
+        <div class="rgb-line"></div>
+    </header>
+
+    <div class="container">
+        <p>Bienvenido a mi página web, donde podrás ver los últimos unboxings de gadgets tecnológicos y más contenido exclusivo.</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/tavotikas/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@gustavotechx" target="_blank">TikTok</a>
+            <a href="https://youtube.com/@tavotikas" target="_blank">YouTube</a>
+        </div>
+
+        <div class="video-gallery">
+            <iframe src="https://www.tiktok.com/embed/t/ZTYXjnw9K" width="325" height="575" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
